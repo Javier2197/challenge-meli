@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Challenge</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>Buscar productos por vendedor</h1>
+
+        <input
+          id="seller"
+          name="seller"
+          type="text"
+          placeholder="Ingrese el id del vendedor"
+        />
+
+        <button id="searchButton" disabled>Buscar</button>
+        <button id="download" disabled>Descargar</button>
+      </div>
+
+      <div>
+        <table>
+          <thead id="tableHead"></thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
